@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Fondamento&family=Numans&display=swap');
+
+body {
+    background-color: rgb(42, 39, 39);
+}
+
+.flex-container {
+    display: flex;
+    padding: 200px;
+    padding-top: 300px;
+}
+
+.flex-item {
+    background: url("chewie\ by\ Eric\ Fan.jpeg");
+    background-size: cover;
+    flex-grow: 1;
+    height: 700px;
+}
+
+.flex-item2
+{
+    flex-grow: 1;
+}
+
+body div img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+}
+
+.info {
+    background-color:aliceblue;
+    padding: 150px 20px 100px;
+    font-family: 'Numans', sans-serif;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 0px;
+}
+label {
+    display:block;
+}
+
+.flex-form {
+    display: flex;
+}
+
+form {
+    background-color: white;
+    font-family: 'Numans', sans-serif;
+    padding: 20px;
+    box-shadow: 0px -3px 20px rgb(0 0 0 / 20%);
+}
+form div div div {
+    padding: 20px;
+    font-size: small;
+}
+button{
+    background-color: green;
+}
+
+.opac {
+    background: rgba(0, 0, 0,.5);
+    height: 100px;
+    position: relative;
+    top:200px;
+}
+
+h1 {
+    font-family: 'Fondamento', cursive;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    color: aliceblue;
+
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.submit {
+    background-color:aliceblue;
+    padding: 20px 20px 150px;
+}
+
